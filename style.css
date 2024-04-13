@@ -1,0 +1,45 @@
+.img-bi0-container{
+    display: flex;
+    background-color:#212529;
+    color: white;
+    justify-content: center;
+}
+.my-img>img{
+    height: 500px;
+    width: 500px;
+    border-radius: 100px;
+}
+
+.img-text>h3{
+text-align: center;
+text-transform:capitalize;
+margin-top: 10rem;
+}
+.img-text{
+    width: 600px;
+    margin-right: 3rem;
+}
+@media (min-width: 360px) and (max-width: 1194px){
+.img-bi0-container{
+
+    flex-direction:  column-reverse;
+}
+
+.my-img>img{
+    height: 400px;
+    width: 390px;
+    border-radius: 150px;
+    margin-top: 4REM;
+}
+
+.img-text>h3{
+    text-align: center;
+    text-transform:capitalize;
+    margin-top: 3rem;
+    font-size: .9rem;
+    }
+ .img-text{
+
+    width: 380px;
+ }
+}
