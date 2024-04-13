@@ -39,7 +39,9 @@ margin-top: 10rem;
     font-size: .9rem;
     }
  .img-text{
-
     width: 380px;
+ }
+ .img-text>h3>span{
+    color: red;
  }
 }
